@@ -1,1 +1,1 @@
-#JavaBasicProjects
+# BasicJavaProjects
