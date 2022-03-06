@@ -1,11 +1,13 @@
-import org.w3c.dom.ls.LSOutput;
-
+import java.util.Scanner;
 public class IfThenAgeProject {
     public static void main(String[] args) {
         // 60 above senior citizen
         //40 above adult
         //11 above teen age
-        int age1 = 17;
+        int age1;
+        System.out.println("Enter your age sir/ma'am :  ");
+        Scanner sc = new Scanner(System.in);
+        age1 = sc.nextInt();
         if (age1 > 60) {
             System.out.println("you are a senior citizen");
         } else if (age1 > 40) {
